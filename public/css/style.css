@@ -1,0 +1,12 @@
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: red;
+    height: 40px;
+    text-align: center;
+}
+
+body {
+    background-color: red;
+}
