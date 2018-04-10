@@ -58,7 +58,7 @@
         @yield('content')
     </div>
 
-</main><!-- /.container -->
+</main>
 
 <footer>
     @yield('footer')
