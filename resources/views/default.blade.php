@@ -54,6 +54,7 @@
 <main role="main" class="container">
 
     <div class="starter-template">
+        @yield('left-nav')
         @yield('content')
     </div>
 
