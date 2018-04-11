@@ -11,6 +11,6 @@
 
 @section('footer')
 
-    <h7>La Provence - Stage</h7>
+    <h7>La Provence - Stage en entreprise</h7>
 
 @endsection
