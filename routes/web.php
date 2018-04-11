@@ -43,3 +43,6 @@ Route::resources([
 
 // prefix : cible tout les url ayant le prefixe désigné
 // middleware : si l'utilisateur n'est pas authentifié, on lui interdit l'accès à cette page là et on le redirige vers le formulaire de connexion
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
