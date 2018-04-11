@@ -49,6 +49,7 @@
         </form>
     </div>
 </nav>
+@extends('layouts.top-nav')
 
 <main role="main" class="container">
 
