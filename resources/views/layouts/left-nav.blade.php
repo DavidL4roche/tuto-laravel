@@ -76,18 +76,15 @@
             </ul>
         </div>
     </nav>
-@endsection()
+@show()
 
 @section('content')
-
     <div class="row">
         <div class="col-md-3">
-            @section('left-nav')
+            @yield('left-nav')
         </div>
-
         <div class="col-md-9">
-            @section('content')
+            @yield('content')
         </div>
     </div>
-
 @endsection

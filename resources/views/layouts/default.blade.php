@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -54,13 +53,12 @@
 <main role="main" class="container">
 
     <div class="starter-template">
-        @yield('left-nav')
         @yield('content')
     </div>
 
 </main>
 
-<footer>
+<footer style="width: 100%; height: 50px; background-color: #343A40; color: white; text-align: center; position: fixed; bottom: 0; padding-top: 10px;">
     @yield('footer')
 </footer>
 
